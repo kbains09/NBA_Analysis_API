@@ -8,6 +8,7 @@ packages = [{include = "nba_analysis_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+dash = "^2.11.1"
 
 
 [build-system]
