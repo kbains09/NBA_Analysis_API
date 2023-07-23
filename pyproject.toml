@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "api"
+name = "nba-analysis-api"
 version = "0.1.0"
 description = ""
 authors = ["Kirat Bains <kiratbains09@gmail.com>"]
 readme = "README.md"
+packages = [{include = "nba_analysis_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
